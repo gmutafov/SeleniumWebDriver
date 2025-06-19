@@ -31,21 +31,21 @@ pipeline {
 
         stage('Run TestProject1') {
             steps {
-                bat 'dotnet test TestProject1; 
+                bat 'dotnet test TestProject1' 
 
             }
         }
         
         stage('Run TestProject2') {
             steps {
-                bat 'dotnet test TestProject2; 
+                bat 'dotnet test TestProject2' 
 
             }
         }
         
         stage('Run TestProject3') {
             steps {
-                bat 'dotnet test TestProject3; 
+                bat 'dotnet test TestProject3' 
 
             }
         }
